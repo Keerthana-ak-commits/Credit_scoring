@@ -117,12 +117,12 @@ cd Credit_scoring
 Download the compressed JSON file (user-transactions.zip ~10MB) from Google Drive and extract user-transactions.json into the project root directory.
 https://drive.google.com/file/d/14ceBCLQ-BTcydDrFJauVA_PKAZ7VtDor/view?usp=sharing
 3. Open and Run the Notebook:
-*Open Credi_aave.ipynb using a Jupyter environment (e.g., Jupyter Lab, Jupyter Notebook, or VS Code with the Jupyter extension).
-*Ensure your selected Python kernel has all the required dependencies installed.
-*Run all cells sequentially from top to bottom.
-*The notebook will perform data loading, preprocessing, feature engineering, proxy score calculation, model training, evaluation, and finally generate the wallet scores.
-*The trained model and scalers will be saved as .joblib files (e.g., credit_score_model.joblib) in the same directory.
-*The final wallet scores will be saved as wallet_scores.json in the same directory.
+* **Open Credi_aave.ipynb using a Jupyter environment (e.g., Jupyter Lab, Jupyter Notebook, or VS Code with the Jupyter extension).
+* **Ensure your selected Python kernel has all the required dependencies installed.
+* **Run all cells sequentially from top to bottom.
+* **The notebook will perform data loading, preprocessing, feature engineering, proxy score calculation, model training, evaluation, and finally generate the wallet scores.
+* **The trained model and scalers will be saved as .joblib files (e.g., credit_score_model.joblib) in the same directory.
+* **The final wallet scores will be saved as wallet_scores.json in the same directory.
 
 ## 5. Deliverables
 README.md: This file, explaining the methodology, architecture, and usage.
