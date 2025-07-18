@@ -15,7 +15,7 @@ This document provides a concise analysis of the credit scores assigned to Aave 
 
 The distribution of the final credit scores (0-1000) across all unique wallets highlights the model's effective segmentation of user behavior.
 
-**(INSERT GENERATED HISTOGRAM IMAGE HERE - score_distribution.png)**
+**![Score Distribution](images/score_distribution.png)**
 
 **Observations:**
 The distribution of credit scores reveals prominent peaks at both the lower (0-200) and upper (801-1000) ends of the spectrum, with a smoother, less dense spread in the middle ranges. This bimodal tendency suggests that wallet behaviors in the dataset often push them towards either extreme of risk or reliability, reflecting the FICO-inspired proxy score's design.
